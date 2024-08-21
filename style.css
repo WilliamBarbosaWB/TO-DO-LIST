@@ -1,0 +1,65 @@
+body {
+    background-color: #19091c;
+    max-width: 700px; /*Definir o quanto o body vai ocupar de largura na tela */
+    margin: 100px auto; /*a opçao auto centraliza os objetos. */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #f1c1fa;
+    font-size: 60px;
+    text-align: center;
+    
+}
+
+
+input {
+    height: 40px;
+    border: 1px solid #a842ba;
+    background-color: #333;
+    color: rgb(236, 236, 236);
+    outline: none;
+    width: 80%;
+    padding: 5px;
+}
+
+button {
+    border: none;
+    height: 50px;
+    width: 120px;
+    background-color: #a842ba;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;  /*Deixar a animação mais suave*/
+}
+
+button:hover {
+    background-color: #c94ede;
+}
+
+button:active {
+    background-color: #e169f6;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #a842ba;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+    color: #eee;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+span {
+    cursor: pointer;
+}
